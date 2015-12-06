@@ -13,7 +13,6 @@ public:
       			result.push_back(map[target - nums[i]] + 1);
       			result.push_back(i + 1);
       			return result;
-      			
       		} else {
       			map[nums[i]] = i;
       		}
